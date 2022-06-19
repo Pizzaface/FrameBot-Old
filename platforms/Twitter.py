@@ -7,7 +7,7 @@ from typing import Optional
 
 import tweepy
 
-from platforms.Platform import Platform
+from lib.Platform import Platform
 
 
 class Twitter(Platform):

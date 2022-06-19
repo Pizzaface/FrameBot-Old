@@ -10,7 +10,7 @@ from typing import Optional
 import httpx
 import yarl
 
-from platforms.Platform import Platform
+from lib.Platform import Platform
 
 GRAPH_VERSION = "v14.0"
 

@@ -7,7 +7,7 @@ from typing import Optional
 
 import discord as discord
 
-from platforms.Platform import Platform
+from lib.Platform import Platform
 
 
 class DiscordClient(discord.Client):

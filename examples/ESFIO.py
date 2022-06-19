@@ -2,7 +2,7 @@ import httpx
 import yarl
 
 from lib.FrameBot import FrameBot
-from platforms.Platform import Platform
+from lib.Platform import Platform
 
 BASE_URL = ''
 API_KEY = ''
@@ -141,7 +141,7 @@ class ESFIO(FrameBot):
                             )
                     else:
                         await self.call_webhook(
-                            self.error_webhook("Failed to Update Best Of.")
+                            **self.error_webhook("Failed to Update Best Of.")
                         )
 
         await plat.post_frame(best_frame, message=message)
