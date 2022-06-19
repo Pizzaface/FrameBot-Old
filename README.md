@@ -9,19 +9,13 @@
 
 - Modular Platform Management
     - **Facebook:**
-
         - ✅ Posting
-
         - ✅ Best Of
     - **Twitter:**
-
         - ✅ Posting
-
         - ❌ Best Of
     - **Discord:**
-
         - ✅ Posting
-
         - ❌ Best Of
 
 
